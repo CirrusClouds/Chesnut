@@ -1,0 +1,44 @@
+{:content ["Welcome to analysis!"]
+ :move []
+ "1" {:content ["e4"
+                "e4, blah blah"]
+      :move ["e2" "e4"]
+      "1" {:content ["The King's Pawn Game"]
+           :move ["e7" "e5"]
+           "1" {:content ["The Center Game"]
+                :move ["d2" "d4"]
+                "1" {:content []
+                     :move ["e5" "d4"]
+                     "1" {:content ["The Danish Gambit"
+                                    "A popular gambit where white sacrifices the c3 pawn in order to damage black's centre and to attain quick development. After black takes on c3, white can develop the knight or gambit the b2 pawn for even faster development- and a dangerous attack on the black king."]
+                          :move ["c2" "c3"]
+                          "1" {:content ["The Danish Gambit Accepted"]
+                               :move ["d4" "c3"]
+                               "1" {:content []
+                                    :piece "N"
+                                    :move ["g8" "f3"]}
+                               "2" {:content []
+                                    :piece "B"
+                                    :move ["f1" "c4"]
+                                    "1" {:content []
+                                         :move ["c3" "b2"]
+                                         "1" {:content ["White takes back"
+                                                        "This move is pretty much forced - but white wanted to develop the bishop to this square anyway. White has given up two pawns, but in return has massive and natural development and the black king looks very tender"]
+                                              :move ["c1" "b2"]}}
+                                    }}}}}}}
+ 
+ "2" {:content ["d4"
+                "d4, blah blah"]
+      :move ["d2" "d4"]
+      "1" {:content []
+           :move ["d7" "d5"]}}
+ "3" {:content ["Nf3"
+                "Nf3, blah blah"]
+      :piece "N"
+      :move ["g1" "f3"]
+      "1" {:content ["d5"]
+           :move ["d7" "d5"]
+           "1" {:content ["The King's Indian Attack"]
+                :move ["g2" "g3"]}}
+      "2" {:content ["c5"]
+           :move ["c7" "c5"]}}}
